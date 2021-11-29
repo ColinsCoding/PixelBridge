@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="style.css"/>
+    <title>document</title>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.6/p5.js"></script> -->
+    <script src = "p5.js" ></script>
+</head>
+<body>
+    <div class="Buttons">
+        <div class="Paint-Pen">
+            <!-- <img src  ="icons\PaintPenPng.png"> -->
+            <button class="pp-btn" onclick="resizePen(0,0)">Paint Pen</button> 
+        </div>
+
+        <div class="Spray-Paint">
+            <!-- <img src ="icons\spraypaint_icon.png"> -->
+            <button class="sp-btn" onclick="resizePen(0,1)">Spray Paint</button>
+        </div>
+
+        <div class="Pen-Size">
+            <button id ="increase" onclick="resizePen(+5)">Pen Size +5</button>
+            <button id ="decrease" onclick="resizePen(-5)">Pen Size -5</button>
+        </div>
+
+        <div class="Clear-Canvas">
+            <button class="pp-btn" onclick="clearScreen()">Clear-Canvas</button>
+        </div> 
+    </div>
+
+
+    <div class="Values"> 
+        <div class="Paint-Size">
+            <p id="p_size">
+                Pen Size (0)
+            </p>
+        </div>
+    </div>
+    
+
+    <script src = "pixelcanvas.js" ></script>
+</body>
+
+</html>
