@@ -11,7 +11,7 @@ Multiple Canvases
   A posting canvas 
 
 Planned:
-Saves as JPEG or PNG
+Saves as JPEG or PNG,
 Selection Tool 
 
 Any questions about the code, I'll be happy to answer. (I'll try my best)
